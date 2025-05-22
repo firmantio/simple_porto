@@ -13,7 +13,7 @@
     font-family: 'Poppins', sans-serif;
 }
 :root {
-    --big-color: #1f242d;
+    --bg-color: #1f242d;
     --second-bg-color: #323846;
     --text-color: #fff;
     --main-color: #0ef;
@@ -40,6 +40,21 @@ body{
     justify-content: space-between;
     align-items: center;
     z-index: 100;
+
+}
+
+.logo {
+    font-size: 2.5rem;
+    color: var(--text-color);
+    font-weight:600;
+    cursor: default;
+
+}
+
+.navbar a {
+    font-size: 1.7rem;
+    color : var(--text-color);
+    margin-left: 4rem;
 
 }
 
